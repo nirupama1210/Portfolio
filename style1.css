@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+    background-color: white;
+}
+#d1{
+    /*display: flex;
+    flex-direction: row;*/
+    margin:50px;
+    margin-top: 20px;
+background-color:#7e3bd1;
+background-size: cover;
+height: 650px;
+text-align: center;
+margin-bottom: 5px;
+}
+/*#d3{
+    display: flex;
+    flex-direction: column;
+}*/
+#h1{
+    margin:40px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 200px;
+    padding: 30px;
+}
+#h2{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    padding: 30px;
+}
+#d2{
+    background-color: #7e3bd1;;
+    display: flex;
+    flex-direction: row;
+}
+.fa-plus{
+    background: #7e3bd1;;
+    color: white;
+}
+.fa-linkedin {
+    background: #7e3bd1;;
+    color: white;
+  }
+.fa-google{
+    background: #7e3bd1;;
+    color: white;
+}
+.fa-github{
+    background: #7e3bd1;;
+    color: white;  
+}
+
+  .fa {
+    padding: 10px;
+    font-size: 80px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  #skill{
+      height: 300px;
+      margin: 70px;
+      display: flex;
+      flex-direction:column;
+  }
+  .sk1{
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+  .sk5{
+    margin: 30px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+  .row{
+      display: flex;
+      flex-direction: row;
+  }
+  #sk2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    margin: 50px;
+    
+  }
