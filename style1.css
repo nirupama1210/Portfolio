@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-color: white;
+    
 }
 #d1{
     /*display: flex;
@@ -34,9 +38,24 @@ margin-bottom: 5px;
     padding: 30px;
 }
 #d2{
-    background-color: #7e3bd1;;
+    background-color: #7e3bd1;
     display: flex;
     flex-direction: row;
+}
+a{
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+
 }
 .fa-plus{
     background: #7e3bd1;;
@@ -57,11 +76,16 @@ margin-bottom: 5px;
 
   .fa {
     padding: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
     font-size: 80px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    
   }
   #skill{
       height: 300px;
@@ -92,10 +116,46 @@ margin-bottom: 5px;
       display: flex;
       flex-direction: row;
   }
-  #sk2{
+  #sk2,#contact{
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
     padding: 10px;
     margin: 50px;
     
+  }
+  .in1{
+    height: 40px;
+    width: 268px;
+    padding: 5px;
+    margin: 20px;
+    outline: none;
+    border:none;
+    background-color: rgb(204, 200, 207);
+    color: rgb(38, 37, 39);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+  }
+  #t1{
+    height: 300px;
+    width:600px;
+    background-color: rgb(204, 200, 207);
+    color: rgb(38, 37, 39);
+    padding: 5px;
+    margin: 20px;
+    outline: none;
+    border:none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+  }
+  #b1{
+    background-color: #7e3bd1;
+    padding: 5px;
+    margin: 20px;
+    outline: none;
+    border:none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color:white;
+    height: 40px;
+    width: 100px;
   }
